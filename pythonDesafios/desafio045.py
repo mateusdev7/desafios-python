@@ -24,28 +24,28 @@ print('-=-' * 8)
 
 if computador == 0:  # Computador jogou PEDRA
     if jogador == 0:  # Pedra
-        print('\nO jogo empatou.')
+        print('O jogo empatou.')
     elif jogador == 1:  # Papel
-        print('\nO Usuário venceu.')
+        print('O Usuário venceu.')
     elif jogador == 2:  # Tesoura
-        print('\nO Computador venceu.')
+        print('O Computador venceu.')
     else:
-        print('\nJOGADA INVÁLIDA')
+        print('JOGADA INVÁLIDA')
 elif computador == 1:  # Computador jogou PAPEL
     if jogador == 0:  # Pedra
-        print('\nO Computador venceu.')
+        print('O Computador venceu.')
     elif jogador == 1:  # Papel
-        print('\nO jogo empatou.')
+        print('O jogo empatou.')
     elif jogador == 2:  # Tesoura
-        print('\nO Usuário venceu.')
+        print('O Usuário venceu.')
     else:
-        print('\nJOGADA INVÁLIDA')
+        print('JOGADA INVÁLIDA')
 elif computador == 2:  # Computador jogou TESOURA
     if jogador == 0:  # Pedra
-        print('\nO Usuário venceu.')
+        print('O Usuário venceu.')
     elif jogador == 1:  # Papel
-        print('\nO Computador venceu.')
+        print('O Computador venceu.')
     elif jogador == 2:  # Tesoura
-        print('\nO jogo empatou.')
+        print('O jogo empatou.')
     else:
-        print('\nJOGADA INVÁLIDA')
+        print('JOGADA INVÁLIDA')
