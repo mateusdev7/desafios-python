@@ -22,7 +22,7 @@ for c in range(1, 5):
     if sexo in 'Mm' and idade > maior_idade_homem: 
         maior_idade_homem = idade
         nome_velho = nome
-    if sexo in 'Ff' and idade < 20: # Procura o sexo masculino como F ou f.
+    if sexo in 'Ff' and idade < 20: # Procura o sexo feminino como F ou f.
         totmulher20 += 1
 
 mediaidade = somaidade / 4 # Executa a média das idades.
