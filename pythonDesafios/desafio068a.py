@@ -15,6 +15,7 @@ while True:
     computador = randint(0,10)
     total = jogador + computador
 
+    # Situação de PAR ou ÍMPAR
     if total % 2 == 0:
         situacao = 'PAR'
     else:
