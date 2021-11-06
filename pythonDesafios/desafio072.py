@@ -1,4 +1,4 @@
-numeros_tupla = ('Zero','Um','Dois','Trê','Quatro','Cinco','Seis','Sete','Oito','Nove','Dez','Onze','Doze','Treze',
+numeros_tupla = ('Zero','Um','Dois','Três','Quatro','Cinco','Seis','Sete','Oito','Nove','Dez','Onze','Doze','Treze',
 'Quartoze','Quinze','Dezesseis','Dezessete','Dezoito','Dezenove','Vinte')
 
 while True:
