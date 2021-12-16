@@ -27,6 +27,6 @@ print(f'\n{"Analisando se o número 5 está ou não na lista":>50}')
 sleep(2)
 print('-=' * 30)
 if 5 in lista_de_numeros:
-    print('O número 5 está na lista')
+    print(f'O número 5 está na lista foi digitado na {lista_de_numeros.index(5)}º posição')
 else:
     print('O número 5 não está na lista.')
